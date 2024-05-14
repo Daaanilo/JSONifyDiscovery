@@ -1,0 +1,95 @@
+{
+    "dataset": {
+        "name": "",
+        "header": [
+            "A/0",
+            "..."
+        ],
+        "size": "12 kb/mb/gb",
+        "format": "csv/xml/...",
+        "col_number": "",
+        "row_number": "",
+        "separator": "",
+        "blank_char": ""
+    },
+    "algorithm": {
+        "name": "",
+        "language": "java/python/c/c++/...",
+        "platform": "console/metanome/...",
+        "execution_type": "Sequential/Parallel/Distributed"
+    },
+    "execution_info": {
+        "system": {
+            "os": "",
+            "os_version": "",
+            "processor": "",
+            "thread": "",
+            "core": "",
+            "ram": ""
+        },
+        "execution_command": "java -jar ...",
+        "max_execution_time": "",
+        "max_ram_usage": "",
+        "start_time": "timestamp",
+        "end_time": "timestamp"
+    },
+    "execution": {
+        "type": "UCC/FD/RFDc/RFDe/HRFD/IndiBits/RENUVER...",
+        "scenario": "static/incremental/imputation",
+        "result": [
+            {
+                "time_execution": {
+                    "unit": "ms/s/m/h",
+                    "dataset_loading": "",
+                    "preprocessing": "",
+                    "discovery": "",
+                    "total": "",
+                    "":""
+                },
+                "ram_usage": {
+                    "unit": "kb/mb/gb",
+                    "max_ram_used": ""
+                },
+                "error": {
+                    "time_limit": "true/false",
+                    "memory_limit": "true/false",
+                    "general_error": "string/null"
+                },
+                "additional_info": {
+                    "extent_relaxation": "0.1",
+                    "similarity_function": [
+                        "abs/lev",
+                        "..."
+                    ],
+                    "comparison_operator": [
+                        "=/<=/<",
+                        "..."
+                    ],
+                    "...": "..."
+                },
+                "data": [
+                    {
+                        "rhs": {
+                            "column": "A/0",
+                            "comparison_relaxation":0
+                        },
+                        "lhs": [
+                            {
+                                "column": "B/1",
+                                "comparison_relaxation":1
+                            },
+                            {
+                                "column": "C/2",
+                                "comparison_relaxation":2
+                            }
+                        ],
+                        "cc": ""
+                    },
+                    {
+                        "...": "..."
+                    }
+                ]
+            }
+        ]
+    }
+}
